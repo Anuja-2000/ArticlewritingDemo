@@ -1,3 +1,5 @@
+//Mini variant drawer from mui can be used
+
 import React from 'react';
 import { useState } from "react"; //use to track the event
 import Link from 'next/Link'
@@ -174,7 +176,7 @@ function Navbar() {
                 <h2 className="text-Templates"> <CreateIcon/>
                 <Link href="/Templates">Templates</Link></h2>
 
-                <h2 className="text-ArticleTypes"><BadgeIcon/><Link href="/ArticleTypes">Articl Types</Link></h2>
+                <h2 className="text-ArticleTypes"><BadgeIcon/><Link href="/ArticleTypes">Article Types</Link></h2>
                 <h2 className="text-TopicDomains"><MenuBookIcon/><Link href="/TopicDomains">Topic Domains</Link></h2>
                 <h2 className="text-flaggedTopics"><InfoIcon/> <Link href="/flaggedTopics">Flagged Topics</Link></h2>
                 <h2 className="text-AssignUserRoles"><GroupIcon/> <Link href="/AssignUserRoles">Assign User Roles</Link></h2>

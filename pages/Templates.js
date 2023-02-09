@@ -9,7 +9,7 @@ function Templates() {
     return (
 
         <div className="bg-image-TemplateWrapper">
-            
+            <h1> <link href='/'>Back to home</link> </h1>{/*documentation refer change*/}
             <Image src="/templates.png"
                 alt="Picture of the writing of Admins"
                 layout="fill"
