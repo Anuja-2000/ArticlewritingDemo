@@ -45,10 +45,10 @@ function FormRow() {
         <Item>Keyword</Item>
       </Grid>
       <Grid item xs={3}>
-        <Item><button type="submit" onClick={}>Accept</button></Item>
+        <Item><button type="submit" >Accept</button></Item>
       </Grid>
       <Grid item xs={3}>
-        <Item><button type="submit" onClick={}>Reject</button></Item>
+        <Item><button type="submit">Reject</button></Item>
       </Grid>
       
     </React.Fragment>
